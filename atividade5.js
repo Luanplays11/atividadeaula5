@@ -12,5 +12,5 @@ function soma(lista){console.log("Soma:")
 function menor20(lista){console.log("Menor q 20:")
     return lista.filter((valor)=>valor<20)}console.log(menor20(lista),"\n")
 
-function PeU(lista){console.log("Primeiro e ultimo:")
-    return [lista[0],lista[lista.length-1]]}console.log(PeU(lista),)
+function Pri_Ult(lista){console.log("Primeiro e ultimo:")
+    return [lista[0],lista[lista.length-1]]}console.log(Pri_Ult(lista),)
